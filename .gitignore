@@ -58,6 +58,8 @@ RECEIPT_TESTING_GUIDE.md
 sample-receipt.pdf
 *.test.pdf
 *.sample.*
+docs/API_TESTING.md
+docs/RECEIPT_PROCESSING.md
 
 # Personal/local configuration
 config.local.js

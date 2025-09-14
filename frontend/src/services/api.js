@@ -1,7 +1,11 @@
 import axios from 'axios'
 
-// Set base URL
-axios.defaults.baseURL = 'http://localhost:5000'
+// Set base URL based on environment
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? 'https://your-backend-app.onrender.com' // Replace with your actual Render backend URL
+  : 'http://localhost:5000'
+
+axios.defaults.baseURL = API_BASE_URL
 
 // API service functions
 export const api = {
