@@ -158,27 +158,6 @@ GET /api/summary - Get financial summary
 └── README.md
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-Your Name - your.email@example.com
-
-Project Link: [https://github.com/yourusername/personal-finance-tracker](https://github.com/yourusername/personal-finance-tracker)
-- See financial overview
-- Check balance and trends
-- Analyze spending by category
-
 ## 🔒 **Security Features:**
 
 ✅ **Backend Security:**
@@ -196,17 +175,6 @@ Project Link: [https://github.com/yourusername/personal-finance-tracker](https:/
 
 ## 🎉 **Congratulations!**
 
-You now have a complete **MERN Stack Personal Finance Tracker** with:
-- ✅ Secure authentication
-- ✅ Transaction management
-- ✅ Receipt processing
-- ✅ Financial dashboard
-- ✅ Modern UI/UX
-- ✅ Full CRUD operations
-- ✅ Professional codebase
-
-**Your application is production-ready for personal use and can be extended with additional features!**
-
+You now have a complete **MERN Stack Personal Finance Tracker**
 ---
 
-**🌟 Happy coding! Your MERN stack journey is complete!** 🌟

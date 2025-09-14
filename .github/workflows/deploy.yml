@@ -4,6 +4,10 @@ on:
   push:
     branches: [ main ]
 
+# Add permissions for the workflow
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -24,6 +28,9 @@ jobs:
     - name: Build
       working-directory: ./frontend
       run: npm run build
+      
+    - name: Add .nojekyll file
+      run: touch ./frontend/dist/.nojekyll
         
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
