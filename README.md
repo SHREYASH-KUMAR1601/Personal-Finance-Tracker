@@ -2,6 +2,9 @@
 
 A comprehensive web application for managing personal finances with receipt scanning capabilities.
 
+## Video Demo 
+https://youtu.be/_b7nTtSWZ4s
+
 ## Features
 
 - 💰 **Transaction Management** - Add, edit, and categorize income and expenses
