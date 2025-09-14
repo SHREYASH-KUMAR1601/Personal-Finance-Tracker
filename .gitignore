@@ -1,0 +1,117 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build directories
+build/
+dist/
+.next/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# MongoDB
+*.db
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Confidential files and testing guides
+POSTMAN_TESTING_GUIDE.md
+RECEIPT_TESTING_GUIDE.md
+sample-receipt.pdf
+*.test.pdf
+*.sample.*
+
+# Personal/local configuration
+config.local.js
+settings.local.json
+
+# API keys and secrets (additional protection)
+.env*
+!.env.example
+secrets/
+keys/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database backups and exports
+*.dump
+*.sql
+backup/
+exports/
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+screenshots/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Package lock files (choose one)
+# package-lock.json
+# yarn.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# MacOS specific
+.DS_Store
+**/.DS_Store
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Personal notes and documentation drafts
+notes/
+drafts/
+personal/
+todo.md
+NOTES.md

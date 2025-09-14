@@ -1,0 +1,33 @@
+{
+  "name": "personal-finance-tracker-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "description": "Backend API for Personal Finance Tracker with receipt processing capabilities",
+  "keywords": ["finance", "personal-finance", "expense-tracker", "receipt-scanner", "mern-stack", "api", "nodejs", "mongodb"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/personal-finance-tracker.git"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.1",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
